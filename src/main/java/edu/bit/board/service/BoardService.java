@@ -10,4 +10,15 @@ public interface BoardService {
 	public List<BoardVO> getList();
 
 	public void writeBoard(BoardVO boardVO);
+
+	public BoardVO getBoard(int getbId);
+	
+	public int delete(int bId);
+
+	public void reply(BoardVO boardVO);
+
+	public void modify(BoardVO boardVO);
+
+
+	
 }
